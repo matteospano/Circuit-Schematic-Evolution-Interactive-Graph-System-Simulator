@@ -7,7 +7,7 @@ A lightweight, zero-dependency HTML5 Canvas interactive simulation engine that m
 
 ---
 
-## 💡 Engineering & Architecture Overview
+## Architecture Overview
 
 This project was built to demonstrate core concepts in **systems engineering**, **state machine management**, and **interactive data visualization** without reliance on heavy framework overhead.
 
@@ -23,7 +23,7 @@ This project was built to demonstrate core concepts in **systems engineering**, 
 
 ---
 
-## 🛠️ System Architecture & Logic Flow
+## Logic Flow
 
 ```
 [ Power Substation ] ─── (HV Bus) ───► [ Heatsinks & Protection ]
@@ -44,16 +44,16 @@ This project was built to demonstrate core concepts in **systems engineering**, 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Zero-Dependency Core**: Built purely with native JavaScript ES6+, HTML5 Canvas, and Tailwind CSS (UI overlays).
 * **Interactive Node Evolution**: Click to unlock and branch components. Dependencies enforce structured path discovery (e.g., Demux and Oscillator required prior to Microcontroller deployment).
-* **Late-Game Wireless Telemetry Pad**: Unlocking the RF matrix reveals an active HUD controller capable of transmitting directional signals across the board gap to actuate chassis motors in real time.
+* **Wireless Telemetry Pad**: Unlocking the RF matrix reveals an active HUD controller capable of transmitting directional signals across the board gap to actuate chassis motors in real time.
 * **Responsive Control Mechanics**: Pinch-to-zoom, pan drag, hover diagnostic inspector cards, and adaptive canvas resizing.
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 * **Frontend Engine**: Vanilla JavaScript (ES6+), HTML5 Canvas API
 * **UI & Overlay**: Tailwind CSS, Fira Code (Monospace Engine Typography)
@@ -61,7 +61,7 @@ This project was built to demonstrate core concepts in **systems engineering**, 
 
 ---
 
-## 🏃 Quick Start
+## How to run it
 
 Because this project uses vanilla web standards, no node modules or build steps are required.
 
@@ -73,11 +73,3 @@ Because this project uses vanilla web standards, no node modules or build steps 
    ```bash
    npx serve .
    ```
-
----
-
-## 👤 Author & Contact
-
-**Full-Stack Software / Informatics Engineer**
-* Portfolio / GitHub: [@your-username](https://github.com/your-username)
-* LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
